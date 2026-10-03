@@ -111,7 +111,6 @@ header {
   color: #625851;
   font-size: 17px;
 }
-}
 
 
 /* ------------------------------
@@ -356,7 +355,7 @@ footer {
     font-size: 42px;
   }
 
-  .description {
+  .hero-description {
     margin-left: auto;
     margin-right: auto;
   }
