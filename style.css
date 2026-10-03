@@ -177,7 +177,7 @@ header {
 ------------------------------ */
 
 .about-box {
-  max-width: 750px;
+  max-width: 800px;
   background-color: white;
   padding: 35px;
   border-radius: 15px;
@@ -187,6 +187,7 @@ header {
 
 .about-box p {
   margin-bottom: 15px;
+text-align: justify;
 }
 
 .about-box p:last-child {
@@ -202,6 +203,22 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+#competences .cards {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#competences .card {
+  grid-column: span 2;
+}
+
+#competences .card:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+
+#competences .card:nth-child(5) {
+  grid-column: 4 / span 2;
 }
 
 .card {
@@ -224,6 +241,15 @@ header {
 
 .card p {
   color: #6b615b;
+ 
+}
+
+#competences .card p {
+  max-width: 900%;
+
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
@@ -237,7 +263,12 @@ header {
   font-weight: bold;
   margin-bottom: 12px;
 }
-
+#experiences .card p:not(.date) {
+   max-width: 800px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* ------------------------------
    PROJET PROFESSIONNEL
@@ -255,8 +286,17 @@ header {
 }
 
 .projet-box p {
-  max-width: 700px;
+  max-width: 960px;
   color: #5f554e;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.projet-box p:last-of-type {
+  margin-bottom: 25;
+}
 }
 
 .mots-cles {
