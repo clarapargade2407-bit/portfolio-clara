@@ -105,10 +105,12 @@ header {
   margin-bottom: 20px;
 }
 
-.description {
+.hero-description {
   max-width: 550px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   color: #625851;
+  font-size: 17px;
+}
 }
 
 
