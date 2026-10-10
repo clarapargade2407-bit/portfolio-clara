@@ -268,8 +268,8 @@ text-align: justify;
   margin-bottom: 12px;
 }
 #experiences .card p:not(.date) {
-   max-width: 800px;
-  text-align: justify;
+   max-width: 100x;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
