@@ -244,9 +244,12 @@ text-align: justify;
  
 }
 
-#competences .card p {
-  max-width: 900%;
+#competences .card 
+  text-align: center;
+}
 
+#competences .card p {
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 
