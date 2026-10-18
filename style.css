@@ -268,7 +268,7 @@ text-align: justify;
   margin-bottom: 12px;
 }
 #experiences .card p:not(.date) {
-   max-width: 800xp;
+   max-width: 800px;
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
@@ -299,8 +299,7 @@ text-align: justify;
 }
 
 .projet-box p:last-of-type {
-  margin-bottom: 25;
-}
+  margin-bottom: 25px;
 }
 
 .mots-cles {
@@ -446,4 +445,37 @@ footer {
     padding: 30px;
   }
 
+}
+
+/* ------------------------------
+   PROJETS
+------------------------------ */
+
+.projets-cards {
+  grid-template-columns: 1fr;
+}
+
+.projet-card {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+}
+
+.projet-card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.projet-card .bouton {
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .projet-card {
+    grid-template-columns: 1fr;
+  }
 }
